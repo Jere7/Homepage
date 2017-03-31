@@ -1,0 +1,120 @@
+
+body {
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+    background-color: white;
+    background-size: 100% 920px;
+    border-radius: 2px;
+}
+  
+
+.wrapper {
+    border: 7px solid lightgrey;
+    background-color: white;   
+}
+ header {
+    width: 100% auto;
+    padding: 10px 5px 0px 10px;
+    
+}
+.nav {
+    padding: 47px 5px 0px 0px; 
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    float: right;   
+}
+
+ span a {
+    color: black;   
+    text-decoration: none;   
+} 
+  a:hover {
+    color: firebrick;
+}
+  a:visited {
+    color: seagreen; 
+}
+ main {
+    text-align: center;
+    margin: 60px;
+}
+h1 , h3 {
+    color: lightgray;
+    font-family: serif,sans-serif;
+}
+h2 {  
+    font-size: 16px;
+    font-family:  sans-serif;
+}
+
+ .container1 {
+    
+    
+}
+
+.form-input { 
+   text-align: center;
+   padding: 8px;
+   
+    
+} 
+input {
+	height: 45px;
+	width: 300px;
+	font-size: 17px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 20px;
+}
+
+ form.email::before{
+	content: "\f007";
+	position: absolute;
+	font-family: "fontAwesome";
+	padding-left: 5px;
+	padding-top: 5px; 
+	
+} 
+ form.password::before{
+	content: "\f007";
+	position: absolute;
+	font-family: "fontAwesome";
+	padding-left: 5px;
+	padding-top: 5px; 
+	
+} 
+
+.login-box{
+    text-align: center; 
+    margin-bottom: 35px;
+}
+ .in {
+    font-size: 13px;
+ }
+ .started {
+     border: 2px solid aqua;
+     padding: 10px; 
+     
+     
+ }
+
+
+
+
+footer {
+    
+    height: 125px;
+    font-size: 12px;
+    background-color: #b2b2b2;
+    background-color: rgba(0, 0, 0, .3);
+    background-repeat: no-repeat;
+    
+
+}
+.footer {
+    position: relative;
+    top: 110px;
+    right: -10px;
+    color:grey ; 
+}
+
