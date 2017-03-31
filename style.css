@@ -34,7 +34,7 @@ body {
   a:visited {
     color: seagreen; 
 }
- main {
+ content {
     text-align: center;
     margin: 60px;
 }
@@ -54,7 +54,7 @@ h2 {
 
 .form-input { 
    text-align: center;
-   padding: 8px;
+   padding: 40px;
    
     
 } 
@@ -67,7 +67,7 @@ input {
 	padding-left: 20px;
 }
 
- form.email::before{
+   .email::before{
 	content: "\f007";
 	position: absolute;
 	font-family: "fontAwesome";
@@ -75,7 +75,7 @@ input {
 	padding-top: 5px; 
 	
 } 
- form.password::before{
+   .password::before{
 	content: "\f007";
 	position: absolute;
 	font-family: "fontAwesome";
@@ -86,9 +86,10 @@ input {
 
 .login-box{
     text-align: center; 
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
  .in {
+     padding-top: 40px;
     font-size: 13px;
  }
  .started {
