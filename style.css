@@ -7,7 +7,6 @@ body {
     border-radius: 2px;
 }
   
-
 .wrapper {
     border: 7px solid lightgrey;
     background-color: white;   
@@ -18,13 +17,14 @@ body {
     
 }
 .nav {
+    
     padding: 47px 5px 0px 0px; 
     word-spacing: 2px;
     letter-spacing: 3px;
     float: right;   
 }
 
- span a {
+  a {
     color: black;   
     text-decoration: none;   
 } 
@@ -44,9 +44,8 @@ h1 , h3 {
 }
 h2 {  
     font-size: 16px;
-    font-family:  sans-serif;
+    font-family: sans-serif;
 }
-
 input {
 	height: 45px;
 	width: 300px;
@@ -54,43 +53,53 @@ input {
 	margin-bottom: 20px;
 	background-color: #fff;
 	padding-left: 30px;
+    
 }
+input1 {
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 30px;
+    
+}
+
+
+
 .form-input1::before{
 	content: "\f001";
 	position: absolute;
 	font-family:"fontAwesome";
 	padding-left: 5px;
-	padding-top: 5px; 
-	font-size: 30px;
+	padding-top: 15px; 
+	font-size: 20px;
 } 
 .form-input::before{
 	content: "\f084";
 	position: absolute;
 	font-family:"fontAwesome";
 	padding-left: 5px;
-	padding-top: 5px; 
-	font-size: 30px;
+	padding-top: 15px; 
+	font-size: 20px;
 } 
 
 
 
 .login-box{
+    padding: 6px; 
     text-align: center; 
-    margin-bottom: 45px;
+    margin:15px auto;
+    padding-top: 15px;
 }
  .in {
-     padding-top: 40px;
-    font-size: 13px;
+    font-size: 10px;
  }
  .started {
      border: 2px solid aqua;
-     padding: 10px; 
-     
-     
+     padding: 15px;      
+     font-size: 17px;
  }
-
-
-
 
 footer {
     
@@ -99,7 +108,6 @@ footer {
     background-color: #b2b2b2;
     background-color: rgba(0, 0, 0, .3);
     background-repeat: no-repeat;
-    
 
 }
 .footer {
