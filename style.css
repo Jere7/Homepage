@@ -2,24 +2,29 @@
         
     body {
 
-        background-color: grey;
-        margin: 15px auto;
+        margin: 0px;
+        border: 5px solid red;
 
     }
-    .wrapper {
-        width: 1200px;
-        height: 900px;
-        padding: 90px;
+     .wrapper {
         border: 5px solid gray;
         box-sizing: border-box;
-        margin: 10px auto;
+        margin: 10px;
+        box-shadow: rgba(0, 0, 200, .8)
+    }
+
+    img {
+        float: left;
+    }
+    .nav {
+        
+        float: right;
     }
 
 
 
 
         
-
 
 
         .form-input1::before{
