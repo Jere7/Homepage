@@ -4,83 +4,90 @@
      border:7px solid  lightgrey;
      background-size: 100% 720px; 
  }
+
  .wrapper {
      width: 100%;
      height: 100%;
  }
 
 header {
-    height: 100px;
-    
+    height: 100px;    
 }
+
 header a {
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     word-spacing: 5px;
 }
-.image {
-    
-    float: left;
-    padding: 15px 15px 0px 0px;
-    
-}
-.navigator {
-    
-   float: right;
-   padding: 35px 0px 25px 0px; 
 
+.image {
+    float: left;
+    padding: 15px 15px 0px 0px;    
 }
+
+.navigator {   
+   float: right;
+   padding: 35px 0px 25px 0px;
+}
+
  .header {     
      color: lightgray;     
 }
+
 section {
     height: 250px;
 }
+
 h2,h1,h3 {
     text-align: center; 
     font-family: Cambria, Cochin;
 }
+
 h2 {
    font-size: 25px;
 }
+
 h1 {
    font-size: 35px;
 }
+
 h3 {
     font-size: 25px;
 }
 
 .container{
-   width: 
-   height: 150px;
+    text-align: center;
+    height: 90px;
 }
-.form-input1{
-    width: 50%; 
-    position: relative;
-    
+
+.form-input1 {
+    display: inline;   
 }
+
 .form-input{
-    width: 30%;
-    position: relative;
-  
+    display: inline;   
+    text-align: center;  
 }
+
 input {
 	height: 45px;
-	width: 300px;
+	width: 170px;
 	font-size:15px;
 	margin-bottom: 10px;
 	background-color: #fff;
 	padding-left: 40px;
 }
-.form-input1::before{
+
+.form-input1::before {
 	content: "\f064";
 	position: absolute;
 	font-family:"fontAwesome";
 	padding-left: 5px;
 	padding-top: 18px; 
 	font-size: 20px;
-} 
-.form-input::before{
+}
+
+.form-input::before {
 	content: "\f084";
 	position: absolute;
 	font-family:"fontAwesome";
@@ -91,11 +98,12 @@ input {
 
  .init {
      width: 100%;
-     height: 65px;
+     height: 45px;
      text-align: center;
      padding-bottom: 15px;
  }
- .init a{
+
+ .init a {
      text-decoration: none;
      
  }
@@ -139,7 +147,7 @@ footer {
 .footer {
     font-size: 11px;
     position: absolute;
-    bottom: 25px;
+    bottom: 0px;
     left: 13px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
