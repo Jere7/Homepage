@@ -6,13 +6,8 @@
  }
 
  .wrapper {
-     width: 100%;
-     height: 100%;
+     
  }
-
-header {
-    height: 100px;    
-}
 
 header a {
     text-decoration: none;
@@ -22,20 +17,21 @@ header a {
 
 .image {
     float: left;
-    padding: 15px 15px 0px 0px;    
+    padding: 15px 15px 0px 0px;
+  
 }
 
 .navigator {   
    float: right;
-   padding: 35px 0px 25px 0px;
+   padding: 25px 10px 25px 0px;
 }
 
  .header {     
-     color: lightgray;     
+    color: lightgray;
 }
 
 section {
-    height: 250px;
+    height: 230px;
 }
 
 h2,h1,h3 {
@@ -147,7 +143,7 @@ footer {
 .footer {
     font-size: 11px;
     position: absolute;
-    bottom: 0px;
+    bottom: 13px;
     left: 13px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
