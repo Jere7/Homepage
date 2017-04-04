@@ -1,7 +1,7 @@
  body {
      margin: 0px;
      padding: 0px;
-     border:5px solid  lightgrey;
+     border:7px solid  lightgrey;
      background-size: 100% 720px; 
  }
  .wrapper {
@@ -16,27 +16,26 @@ header {
 header a {
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
     word-spacing: 5px;
 }
 .image {
-    position: absolute;
-    top: 10px;
-    left: 40px;
-
+    
+    float: left;
+    padding: 15px 15px 0px 0px;
     
 }
 .navigator {
-   position: absolute;
-    top: 35px;
-    right: 40px;
+    
+   float: right;
+   padding: 35px 0px 25px 0px; 
 
 }
- .header {
-     color: lightgray;
-     width: 100% auto;
-     height: 200px;
- }
+ .header {     
+     color: lightgray;     
+}
+section {
+    height: 250px;
+}
 h2,h1,h3 {
     text-align: center; 
     font-family: Cambria, Cochin;
@@ -52,21 +51,18 @@ h3 {
 }
 
 .container{
-    width: 100%;
-    height: 110px;
+   width: 
+   height: 150px;
 }
 .form-input1{
     width: 50%; 
-    position: absolute;
-    top: 350px;
-    left: 290px;
+    position: relative;
+    
 }
 .form-input{
     width: 30%;
- 
-    position: absolute;
-    top: 350px;
-    right: 250px;
+    position: relative;
+  
 }
 input {
 	height: 45px;
@@ -95,7 +91,7 @@ input {
 
  .init {
      width: 100%;
-     height: 45px;
+     height: 65px;
      text-align: center;
      padding-bottom: 15px;
  }
@@ -143,7 +139,7 @@ footer {
 .footer {
     font-size: 11px;
     position: absolute;
-    bottom: 5px;
+    bottom: 25px;
     left: 13px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
