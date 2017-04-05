@@ -55,6 +55,7 @@ h3 {
 }
 
 .container{
+    font-size: 1.0em;
     width: 100%;
     text-align: center;
     display: inline-block
