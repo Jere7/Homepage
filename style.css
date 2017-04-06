@@ -4,7 +4,7 @@
      margin: 0px;
      padding: 0px;
      border:7px solid  lightgrey;
-     background-size: 100% 980px; 
+     background-size: 100%; 
  }
 
  .wrapper {
@@ -57,10 +57,12 @@ h3 {
 }
 
 .container{
+    padding-bottom: 83px;
     font-size: 1.0em;
     width: 100%;
     text-align: center;
     display: inline-block
+    
     
 }
 
@@ -72,7 +74,7 @@ h3 {
 .form-input{
     width: 100%;
     display: inline;   
-    
+        
 }
 
 input {
